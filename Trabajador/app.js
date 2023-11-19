@@ -65,7 +65,6 @@ var app = new Vue({
                 self.isCameraOn = true;
             } else {
                 console.error('No cameras found.');
-                alert("No hay ninguna cámara.")
             }
         }).catch(function (e) {
             console.error(e);
