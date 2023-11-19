@@ -63,8 +63,8 @@ var app = new Vue({
                 self.activeCameraId = cameras[0].id;
                 self.scanner.start(cameras[0]);
                 self.isCameraOn = true;
-                 alert('Lo siento, no tienes reservas por el momento. Realiza una reserva en SIASE y vuelve más tarde.');
             } else {
+                 alert('Lo siento, no tienes reservas por el momento. Realiza una reserva en SIASE y vuelve más tarde.');
                 console.error('No cameras found.');
             }
         }).catch(function (e) {
