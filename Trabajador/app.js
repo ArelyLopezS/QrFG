@@ -65,10 +65,10 @@ var app = new Vue({
                 self.isCameraOn = true;
             } else {
                 console.error('No cameras found.');
-                 alert('Lo siento, no tienes reservas por el momento. Realiza una reserva en SIASE y vuelve más tarde.');
             }
         }).catch(function (e) {
             console.error(e);
+             alert('Lo siento, no tienes reservas por el momento. Realiza una reserva en SIASE y vuelve más tarde.');
         });
     },
     methods: {
