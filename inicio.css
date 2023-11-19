@@ -91,18 +91,3 @@ iframe
         margin-top: 10px; /* Ajusta el espacio entre los iframes según tus necesidades */
     }
 }
-
-/* Agrega este bloque de código al final de tu archivo CSS */
-
-/* Estilos para la lista de navegación en dispositivos móviles */
-@media (max-width: 767px) {
-    .nav {
-        flex-direction: column;
-        align-items: center;
-        margin: 10px 0; /* Ajusta el espacio entre los elementos de la lista según tus necesidades */
-    }
-
-    .nav li {
-        margin: 5px 0; /* Ajusta el espacio entre los elementos de la lista según tus necesidades */
-    }
-}
