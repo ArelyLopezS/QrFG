@@ -28,7 +28,7 @@ function addScanToDB(scanData) {
 
             request.onsuccess = event => {
                 console.log('Escaneo guardado en la base de datos.');
-                alert("Escaneado el QR con Exito")
+                alert("Escaneado el QR con Exito");
             };
 
             request.onerror = event => {
@@ -65,6 +65,7 @@ var app = new Vue({
                 self.isCameraOn = true;
             } else {
                 console.error('No cameras found.');
+                 alert('Lo siento, no tienes reservas por el momento. Realiza una reserva en SIASE y vuelve más tarde.');
             }
         }).catch(function (e) {
             console.error(e);
