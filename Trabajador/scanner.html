@@ -17,7 +17,7 @@
             <section class="cameras">
                 <h2>Cámaras</h2>
                 <ul>
-                    <li v-if="cameras.length === 0" class="empty">Ningun cámara encontrada</li>
+                    <li v-if="cameras.length === 0" class="empty">Ninguna cámara encontrada</li>
                     <li v-for="camera in cameras">
                         <span v-if="camera.id == activeCameraId" :title="formatName(camera.name)" class="active">{{ formatName(camera.name) }}</span>
                         <span v-if="camera.id != activeCameraId" :title="formatName(camera.name)">
