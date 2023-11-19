@@ -33,6 +33,13 @@ document.addEventListener('DOMContentLoaded', () =>
         // Redirigir a la página de encuestas
         window.location.href = "/InicioAlumno.html";
     });
+    
+    const toggleNavButton = document.getElementById('toggle-nav');
+    const navList = document.querySelector('.nav');
+
+    toggleNavButton.addEventListener('click', function () {
+        navList.classList.toggle('show');
+    });
 });
 
 function redirigir(url)
