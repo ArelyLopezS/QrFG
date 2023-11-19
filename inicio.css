@@ -82,7 +82,7 @@ iframe
 /* Agrega este bloque de código al final de tu archivo CSS */
 
 /* Estilos para los iframes en dispositivos móviles */
-@media (max-width: 767px) {
+@media (max-width: 900px) {
     .iframes-container {
         display: flex;
         flex-direction: column;
