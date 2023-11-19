@@ -65,7 +65,6 @@ var app = new Vue({
                 self.isCameraOn = true;
             } else {
                 console.error('Ninguna cámara encontrada.');
-                alert('Ninguna cámara encontrada');
             }
         }).catch(function (e) {
             console.error(e);
