@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #4E6E8E;
+    color: #fff;
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.cameras h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cameras ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cameras li {
+    margin-bottom: 10px;
+}
+
+.cameras a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cameras a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.preview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#preview {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #296187;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4E6E8E;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encuestas.css">
+    <title>Encuestas de Satisfacción</title>
+</head>
+<body>
+    <body class="login">
+        <header class="cabecera">
+         <img src="../imagenes/logoinicio.png" alt="Logo GYM FIME" class="logo">
+            <ul class="nav">
+                <li> 
+                    <!-- Botón "Encuestas" (sin acción por el momento) -->
+                    <button id="inicio-button">Inicio</button>
+                </li>
+                <li> 
+                    <!-- Botón "Encuestas" (sin acción por el momento) -->
+                    <button id="encuesta-button">Encuestas</button>
+                </li>
+                <li>
+                    <!-- Botón "Cerrar Sesión" -->
+                    <button id="cerrar-sesion">Cerrar Sesión</button>
+                </li>
+                <li>
+                    <!-- Mostrar la matrícula pasada como parámetro en la URL -->
+                    <p id="matricula"></p>
+                </li>
+            </ul>
+        </header>
+        
+        <h1>Encuestas de Satisfacción</h1>
+    
+        <div class="encuesta-grid">
+            <div class="encuesta-box">
+                <img src="../imagenes/encuestas.jpg" alt="Imagen 1">
+                <button onclick="redirigir('encuestas.html')">Encuesta de Satisfacción</button>
+            </div>
+        </div>
+
+        <script src="InicioEncuestas.js"></script>
+    
+    </body>
+</body>
+</html>

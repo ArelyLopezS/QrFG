@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Iniciar Sesión</title>
+</head>
+<body class="login">
+    <div class="container">
+        <div class="welcome-message">
+            <h2>Bienvenido</h2>
+            <img src="imagenes/login2.png" alt="Imagen de bienvenida">
+            <!-- Agrega aquí tu mensaje de bienvenida -->
+        </div>
+        <div class="seclog">
+            <div class="logo">
+                <img src="imagenes/logogym.png" alt="Logo de QRFG">
+            </div>
+            <form id="login-form">
+                <h2>Iniciar Sesión</h2>
+                <label for="type">Tipo:</label>
+                <select id="type" class="select-estilizado" required>
+                    <option value="Alumno">Alumno</option>
+                    <option value="Trabajador">Trabajador</option>
+                </select>
+
+                <br><br>
+
+                <label for="matricula"> Matricula: </label>
+                <input type="text" id="matricula" required><br><br>
+                <label for="password"> Contraseña:</label>
+                <input type="password" id="password" required><br><br>  
+                <input type="submit" value="Iniciar Sesión">
+            </form>     
+            <script src="login.js"></script>
+            <div class="polifime"> </div>
+            <div id="status"></div> 
+        </div>
+    </div>
+</body>
+</html>

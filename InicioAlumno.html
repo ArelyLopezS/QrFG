@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicio.css">
+    <title>Inicio para Alumnos</title>
+</head>
+<body class="login">
+    <header class="cabecera">
+        <img src="imagenes/logoinicio.png" alt="Logo GYM FIME" class="logo">
+        <ul class="nav">
+            <li> 
+                <!-- Botón "Encuestas" (sin acción por el momento) -->
+                <button id="inicio-button">Inicio</button>
+            </li>
+            <li> 
+                <!-- Botón "Encuestas" (sin acción por el momento) -->
+                <button id="encuesta-button">Encuestas</button>
+            </li>
+            <li>
+                <!-- Botón "Cerrar Sesión" -->
+                <button id="cerrar-sesion">Cerrar Sesión</button>
+            </li>
+            <li>
+                <!-- Mostrar la matrícula pasada como parámetro en la URL -->
+                <p id="matricula"></p>
+            </li>
+        </ul>
+    </header>
+
+    <div class="iframes-container">
+        <!-- Iframe para reservaciones (frame "reservas-frame") -->
+        <iframe name="reservas-frame" width="50%" height="600" src="Alumno/RegistroReserva.html"></iframe>
+    
+        <!-- Iframe para el generador de códigos QR (frame "qr-frame") -->
+        <iframe name="qr-frame" class="qr-frame-style" width="49%" height="600" src="Alumno/generate-qr.html"></iframe>
+    </div>
+    
+    <script src="InicioAlumno.js"></script>
+    
+</body>
+</html>

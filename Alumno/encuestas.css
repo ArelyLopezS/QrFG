@@ -1,0 +1,207 @@
+/* Estilos generales */
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Estilos para la cabecera */
+.cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f9fc;
+  padding: 10px;
+  height: 60px;
+}
+
+/* Estilos para el logo */
+.logo {
+  width: 200px; /* Ajusta el tamaño de acuerdo a tus necesidades */
+  height: auto;
+  margin-top: -30px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Estilos para la lista de navegación */
+.nav {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para los elementos de la lista de navegación */
+.nav li {
+  margin: 0 10px;
+}
+
+/* Estilos para los botones */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  background-color: #4E6E8E;
+  color: white;
+}
+
+/* Ajustes adicionales para los botones */
+button:hover {
+  background-color: #2B547E;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Estilos para la cuadrícula de encuestas */
+.encuesta-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.encuesta-box {
+  text-align: left;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+}
+
+
+/* Estilos para la imagen dentro de la caja de encuesta */
+.encuesta-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ajustes adicionales para el botón dentro de la caja de encuesta */
+.encuesta-box button {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+}
+
+
+
+
+/* Estilos generales para el cuerpo de la página */
+.mi-pagina {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Estilos para el contenedor principal */
+#contenedor-formulario {
+  width: 50%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Estilos para el título principal */
+#resh1 {
+  color: #497fa6;
+  font-size: 38px;
+  margin-top: 20px;
+  text-align: center; /* Alinea el título al centro */
+}
+
+/* Estilos para los párrafos de la encuesta */
+.pENC {
+  color: #555;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Estilos para las preguntas de la encuesta */
+.pregunta {
+  margin-bottom: 20px;
+  text-align: left; /* Alinea las preguntas a la izquierda */
+}
+
+/* Estilos para las etiquetas de la encuesta */
+.pregunta label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left; /* Alinea las etiquetas a la izquierda */
+}
+
+/* Estilos para los selects de la encuesta */
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+/* Estilos para los textareas de la encuesta */
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+/* Estilos para el botón de envío de la encuesta */
+.boton-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button[type="submit"] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #405461;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #236fa1;
+}
+
+button[type="submit"]:focus {
+  outline: none;
+}
+
+/* Estilos para los botones "Salir" y "Ir al Inicio" */
+#salir-button,
+#regresarInicio-button {
+  padding: 12px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(155, 184, 205) ;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#salir-button:hover,
+#regresarInicio-button:hover {
+  background-color: rgb(105, 158, 195);
+}
+
+#salir-button:focus,
+#regresarInicio-button:focus {
+  outline: none;
+}

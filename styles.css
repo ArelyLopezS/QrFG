@@ -1,0 +1,139 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container
+{
+    display: flex;
+    width: 80%;
+}
+
+.welcome-message
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(71, 114, 139);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.welcome-message img
+{
+    width: 500px; /* Cambia este valor para ajustar el tamaño de la imagen */
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.welcome-message h2
+{
+    font-size: 50px; /* Cambia este valor para ajustar el tamaño del texto */
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.seclog
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.logo img
+{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.seclog h2
+{
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.seclog label
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.seclog input[type="text"],
+.seclog input[type="password"],
+.seclog select
+{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.seclog input[type="submit"]
+{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(71, 114, 139);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.seclog input[type="submit"]:hover
+{
+    background-color: rgb(245, 178, 76);
+    transform: scale(1.1);
+}
+
+.seclog input[type="submit"]:active
+{
+    background-color: rgb(48, 15, 106);
+    transform: scale(0.9);
+}
+
+.seclog input[type="submit"]:focus
+{
+    outline: none;
+}
+
+.seclog select
+{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.seclog select:focus
+{
+    outline: none;
+}

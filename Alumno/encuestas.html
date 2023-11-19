@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encuestas.css">
+    <title>Encuestas de Satisfacción</title>
+</head>
+<body class="mi-pagina">
+    <div id="contenedor-formulario">
+        <h1 id="resh1">Encuesta de Satisfacción</h1>
+        <p class="pENC">Por favor, complete nuestra encuesta de satisfacción.</p>
+        <p class="pENC">Recuerda que las respuestas son anónimas para mantener la integridad de nuestros usuarios.</p>
+
+        <form id="encuesta-form">
+            <div class="pregunta">
+                <label for="opcion-satisfaccion">¿El acceso a nuestra aplicación resultó fácil para usted?</label>
+                <select id="opcion-satisfaccion" name="opcion-satisfaccion">
+                    <option value="Totalmente de acuerdo">Totalmente de acuerdo</option>
+                    <option value="Algo de acuerdo">Algo de acuerdo</option>
+                    <option value="Ni de acuerdo ni en desacuerdo">Ni de acuerdo ni en desacuerdo</option>
+                    <option value="Algo en desacuerdo">Algo en desacuerdo</option>
+                    <option value="Totalmente en desacuerdo">Totalmente en desacuerdo</option>
+                </select>
+            </div>
+
+            <div class="pregunta">
+                <label for="navegacion-facil">¿Navegar dentro de nuestra aplicación resulta una experiencia fácil?</label>
+                <select id="navegacion-facil" name="navegacion-facil">
+                    <option value="Totalmente de acuerdo">Totalmente de acuerdo</option>
+                    <option value="Algo de acuerdo">Algo de acuerdo</option>
+                    <option value="Ni de acuerdo ni en desacuerdo">Ni de acuerdo ni en desacuerdo</option>
+                    <option value="Algo en desacuerdo">Algo en desacuerdo</option>
+                    <option value="Totalmente en desacuerdo">Totalmente en desacuerdo</option>
+                </select>
+            </div>
+
+            <div class="pregunta">
+                <label for="diseno-atractivo">El diseño de la aplicación es lo suficientemente atractivo como para desear mantenerme en ella.</label>
+                <select id="diseno-atractivo" name="diseno-atractivo">
+                    <option value="Totalmente de acuerdo">Totalmente de acuerdo</option>
+                    <option value="Algo de acuerdo">Algo de acuerdo</option>
+                    <option value="Ni de acuerdo ni en desacuerdo">Ni de acuerdo ni en desacuerdo</option>
+                    <option value="Algo en desacuerdo">Algo en desacuerdo</option>
+                    <option value="Totalmente en desacuerdo">Totalmente en desacuerdo</option>
+                </select>
+            </div>
+
+            <div class="pregunta">
+                <label for="rapidez-navegacion">Los procesos de búsquedas de información dentro de nuestra aplicación, así como la navegación dentro de ella ocurren de manera rápida y ágil.</label>
+                <select id="rapidez-navegacion" name="rapidez-navegacion">
+                    <option value="Totalmente de acuerdo">Totalmente de acuerdo</option>
+                    <option value="Algo de acuerdo">Algo de acuerdo</option>
+                    <option value="Ni de acuerdo ni en desacuerdo">Ni de acuerdo ni en desacuerdo</option>
+                    <option value="Algo en desacuerdo">Algo en desacuerdo</option>
+                    <option value="Totalmente en desacuerdo">Totalmente en desacuerdo</option>
+                </select>
+            </div>
+
+            <div class="pregunta">
+                <label for="ayuda-acceso-gym">¿Nuestros servicios te ayudan a solucionar problemas y a facilitar tu acceso al gym?</label>
+                <select id="ayuda-acceso-gym" name="ayuda-acceso-gym">
+                    <option value="Totalmente de acuerdo">Totalmente de acuerdo</option>
+                    <option value="Algo de acuerdo">Algo de acuerdo</option>
+                    <option value="Ni de acuerdo ni en desacuerdo">Ni de acuerdo ni en desacuerdo</option>
+                    <option value="Algo en desacuerdo">Algo en desacuerdo</option>
+                    <option value="Totalmente en desacuerdo">Totalmente en desacuerdo</option>
+                </select>
+            </div>
+
+            <div class="pregunta">
+                <label for="mejoras-sugeridas">¿Qué recomienda usted que se debería de hacer para mejorar los servicios y funciones de nuestra aplicación?</label>
+                <textarea id="mejoras-sugeridas" name="mejoras-sugeridas"></textarea>
+            </div>
+
+            <div class="pregunta">
+                <label for="otros-servicios">¿Cuáles otros servicios le gustaría encontrar en la aplicación?</label>
+                <textarea id="otros-servicios" name="otros-servicios"></textarea>
+            </div>
+
+            <br><br><br>
+
+            <div class="boton-container">
+            <!-- Botón de envío de la encuesta -->
+            <button type="submit">Enviar Encuesta</button>
+            </div>
+        </form>
+        
+        <br>
+    
+        <div class="boton-container">
+            <!-- Botón "Salir" - Redirige a la página "InicioAlumno.html" -->
+            <button id="salir-button">Salir</button>
+            <button id="regresarInicio-button">Ir al Inicio</button>
+        </div>
+    
+        <script src="encuestas.js"></script>
+
+    </div>
+    
+</body>
+</html>

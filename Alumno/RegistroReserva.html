@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resalum.css">
+    <title>Registrar Reservas de Alumnos</title>
+    <script src="qrcode.min.js"></script>
+</head>
+<body>
+    <h1 id="resh1">Reservas del Alumno - Gimnasio FIME</h1>
+
+    <div id="output">
+        <h2>Lista de Reservaciones</h2>
+        <div class="tabla">
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>ID Reserva</th>
+                        <th>Hora</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody id="data-list"></tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="RegistroReserva.js"></script>
+
+</body>
+</html>

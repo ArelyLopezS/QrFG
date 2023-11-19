@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#h1scann {
+    color: rgb(71, 114, 139);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(71, 114, 139);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #236fa1;
+}
+
+button:focus {
+    outline: none;
+}
+
+.tablaqr,
+#respuestas-table {
+    margin-top: 20px;
+    width: 90%;
+    border-collapse: collapse;
+    background-color: rgba(92, 127, 150, 0.711);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.tablaqr th,
+.tablaqr td,
+#respuestas-table th,
+#respuestas-table td {
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fbfafa;
+}
+
+.tablaqr tbody tr:nth-child(even),
+#respuestas-table tbody tr:nth-child(even) {
+    background-color: rgba(92, 127, 150, 0.711);
+}
+
+.tablaqr tbody tr:hover,
+#respuestas-table tbody tr:hover {
+    background-color: rgba(92, 127, 150, 0.711);
+}

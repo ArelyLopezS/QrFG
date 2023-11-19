@@ -1,0 +1,79 @@
+/* Estilos generales */
+body
+{
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Estilos para la cabecera */
+.cabecera
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(244, 246, 248, 0.57);
+    padding: 10px;
+    height:60px;
+}
+
+/* Estilos para el logo */
+.logo
+{
+    width: 200px; /* Ajusta el tamaño de acuerdo a tus necesidades */
+    height: auto;
+    margin-top: -30px; 
+}
+
+/* Estilos para la lista de navegación */
+.nav
+{
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+/* Estilos para los elementos de la lista de navegación */
+.nav li
+{
+    margin: 0 10px;
+}
+
+/* Estilos para los botones */
+button
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: #4E6E8E;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Ajustes adicionales para los botones */
+button:hover
+{
+    background-color: #2B547E;
+}
+
+button:active
+{
+    transform: scale(0.95);
+}
+
+/* Estilos para los iframes */
+iframe
+{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Alineación de logo, botones y texto de matrícula */
+.logo, .nav, #matricula
+{
+    display: flex;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
