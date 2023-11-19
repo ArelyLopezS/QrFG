@@ -14,8 +14,9 @@ body
 /* Estilos para el título principal */
 #resh1
 {
-    color: #3498db;
+    color:  #4E6E8E;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Estilos para el contenedor de la tabla */
@@ -97,11 +98,6 @@ body
     padding: 20px;
 }
 
-#resh1
-{
-    color:  #4E6E8E;
-    margin-bottom: 20px;
-}
 
 label
 {
