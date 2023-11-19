@@ -88,6 +88,7 @@ iframe
 
     iframe {
         width: 100%;
+        max-width: 100%;
         margin-top: 10px; /* Ajusta el espacio entre los iframes según tus necesidades */
     }
 }
