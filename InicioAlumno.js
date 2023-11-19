@@ -54,7 +54,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    dbPromise.onerror = (event) => {
-        console.error('Error al abrir la base de datos:', event.target.error);
-    };
+    const toggleNavButton = document.getElementById('toggle-nav');
+    const navList = document.querySelector('.nav');
+
+    toggleNavButton.addEventListener('click', function () {
+        navList.classList.toggle('show');
+    });
 });
