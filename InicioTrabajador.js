@@ -46,4 +46,11 @@ document.addEventListener('DOMContentLoaded', () =>
         const iframe = document.querySelector('iframe[name="scanner-frame"]');
         iframe.src = "Trabajador/RespuestasEncuestas.html";
     });
+
+    const toggleNavButton = document.getElementById('toggle-nav');
+    const navList = document.querySelector('.nav');
+
+    toggleNavButton.addEventListener('click', function () {
+        navList.classList.toggle('show');
+    });
 });
