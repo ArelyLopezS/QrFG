@@ -1,33 +1,19 @@
 # QrFG
-QrFG es una página para la creación de código Qr.
+## Sobre QrFG
 
-Este proyecto creado para el bootcamp Tecnolochicas PRO, es una página web adaptable a dispositivos de distintos tamaños (este tipo de sitio web se conoce en inglés como "responsive"). 
+QrFG es una página para la creación de código Qr para el ingreso y registro de Entradas y Salidas de un Gimnasio de una Universidad.
 
-El propósito de esta página web es mostrar el portafolio de proyectos de un(a) desarrollador(a) y su experiencia. Incluye una descripción breve de su motivación, experiencia, proyectos, artículos publicados y formas de contacto. 
+Este proyecto fue creado para un Proyecto Escolar donde se buscaba usar herramientas de registro con el uso de la cámara para registrar la hora y entrada del lugar.
 
-También incluye imágenes alternativas en la carpeta `imagenes` en caso de que se desee personalizar la imagen principal del desarrollador, además de animación a la escritura de la página web con JavaScript.
+Se utilizo los lenguajes de programación Html, JavaScript y CSS.
 
-### Capturas de pantalla:
+### Interfaces de la Página.
+La página principal parte de un Login que, dependiendo del tipo de usuario al cual se ingrese, se va a redirigionar a la página correspondiente.
 
-Primera parte de la página web:
+Se posee dos tipos de usuarios al cual se puede ingresar: Trabajador y Estudiante.
 
-![Primera parte de la página web](imagenes/Readme/screenshot1.png)
+El Estudiante tendrá las opciones únicamente de 
 
-Experiencia:
-
-![Experiencia](imagenes/Readme/screenshot2.png)
-
-Proyectos:
-
-![Proyectos](imagenes/Readme/screenshot3.png)
-
-Testimonios:
-
-![Testimonios](imagenes/Readme/screenshot4.png)
-
-Contacto:
-
-![Contacto](imagenes/Readme/screenshot5.png)
 
 ## Tecnologías
 
@@ -35,14 +21,15 @@ Esta página web fue creada con:
 
 * HTML
 * CSS
-* JavaScript 
-* Bootstrap 5
+* JavaScript
+* IndexedDB
+* Instascan
 
-Además, se incluyeron **Google Fonts** para personalizar la fuente y **Bootstrap icons** para incorporar íconos como flechas y logos de redes sociales populares. 
+Además, se incluyeron **Google Fonts** para personalizar la fuente.
 
 ## Español
 
-El texto de la página web está escrito en español, al igual que las clases y atributos personalizados. Las clases relacionadas con Bootstrap se incluyeron en inglés.
+El texto de la página web está escrito en español, al igual que las clases y atributos personalizados.
 
 
 
