@@ -18,7 +18,9 @@ La página principal parte de un Login que, dependiendo del tipo de usuario al c
 
 Se posee dos tipos de usuarios al cual se puede ingresar: Trabajador y Estudiante.
 
-El Estudiante tendrá las opciones únicamente de 
+El Estudiante tendrá las opciones únicamente de generar el código QR de la reservación que el estudiante ya ha realizado anteriormente y que ya se encuebntra en la base de datos. Como además de poder contestar encuestas de sastifacción donde los estudiantes compartiran sus opiniones con la página web.
+
+Mientras que el Trabajador posee el proceso de registros de entradas y salidas
 
 
 ## Tecnologías
